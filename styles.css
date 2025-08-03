@@ -1,0 +1,100 @@
+body{
+    display: flex;
+flex-direction: column;
+background-color: darkviolet;
+
+align-items: center;
+
+}
+h1{
+    color:lightgray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+.my_label{
+    color:rgb(240, 195, 141);
+    font-size: x-large;
+}
+.input{
+    width: 400px;
+    height:40px;
+color:black;
+font-size: large;
+border-radius: 5px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+  
+    flex-wrap: wrap;
+    width: 400px;
+   
+    
+    
+    text-align: center;
+    background-color: blue;
+    
+};
+.my_label{
+    color: bisque;
+}
+.intro{
+    text-align: center;
+
+}
+button{
+    border-radius: 5px;
+}
+.symbol{
+    text-align: center;
+    border:2px solid blue;
+    margin:auto;
+    background-color:aqua;
+    width:25%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    font-size:xx-large;
+}
+#spec{
+    text-align: center;
+    border:2px solid blue;
+    margin:auto;
+    background-color: aqua;
+    width: 25%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    font-size: xx-large;
+}
+#clear{
+    text-align: center;
+    border:2px solid blue;
+    margin:auto;
+    background-color: aqua;
+    width: 25%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    font-size: xx-large;
+}
+.digit{
+    text-align: center;
+    border:2px solid brown;
+    
+    margin:auto;
+    background-color:bisque;
+    width: 25%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    font-size: xx-large;
+}
+.backspace{
+    background-color: aqua;
+    width:100px;
+    height:40px;
+    border: 2px solid blue;
+    font-size: x-large;
+
+}
+.area{
+    display: grid;
+   
+}
